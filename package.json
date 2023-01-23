@@ -1,0 +1,19 @@
+{
+  "name": "create_driver_moves_cf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=create_driver_moves_cf",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^2.0.0",
+    "graphqurl": "^0.3.1",
+    "lodash": "^4.17.21",
+    "superagent": "^5.1.1"
+  }
+}
